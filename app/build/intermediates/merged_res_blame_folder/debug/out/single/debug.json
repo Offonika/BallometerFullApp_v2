@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.ballometer.app-merged_res-26:/layout_activity_splash.xml.flat",
+        "source": "com.example.ballometer.app-main-28:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.ballometer.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "com.example.ballometer.app-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.ballometer.app-merged_res-26:/layout_activity_score.xml.flat",
+        "source": "com.example.ballometer.app-main-28:/layout/activity_score.xml"
+    }
+]

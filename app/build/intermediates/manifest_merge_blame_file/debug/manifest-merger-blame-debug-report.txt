@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ballometer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\Otchet\.gradle\caches\transforms-3\0776a3e9e5ab3ee70403577a88e91055\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:label="@string/app_name"
+15-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:7:9-41
+16        android:supportsRtl="true"
+16-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:8:9-35
+17        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+17-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:9:9-67
+18        <activity android:name="com.example.ballometer.ScoreActivity" />
+18-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:11:9-50
+18-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:11:19-48
+19        <activity android:name="com.example.ballometer.MainActivity" />
+19-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:12:9-49
+19-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:12:19-47
+20
+21        <!-- Вот здесь добавляем android:exported -->
+22        <activity
+22-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:15:9-22:20
+23            android:name="com.example.ballometer.SplashActivity"
+23-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:16:13-43
+24            android:exported="true" >
+24-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:17:13-36
+25            <intent-filter>
+25-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:18:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:19:17-68
+26-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:19:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:20:17-76
+28-->C:\Users\Otchet\AndroidStudioProjects\BallometerFullApp_v2\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+34            android:authorities="com.example.ballometer.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Otchet\.gradle\caches\transforms-3\0bdb2e564de44794108603693224b8b4\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Otchet\.gradle\caches\transforms-3\42f53e3ad995245c0606a148dddbaf2c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Otchet\.gradle\caches\transforms-3\42f53e3ad995245c0606a148dddbaf2c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Otchet\.gradle\caches\transforms-3\42f53e3ad995245c0606a148dddbaf2c\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>

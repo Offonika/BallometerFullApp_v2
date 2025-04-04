@@ -1,0 +1,7 @@
+#Fri Apr 04 13:00:33 MSK 2025
+base.1=C\:\\Users\\Otchet\\AndroidStudioProjects\\BallometerFullApp_v2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\9\\classes.dex
+path.1=9/classes.dex
+base.0=C\:\\Users\\Otchet\\AndroidStudioProjects\\BallometerFullApp_v2\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

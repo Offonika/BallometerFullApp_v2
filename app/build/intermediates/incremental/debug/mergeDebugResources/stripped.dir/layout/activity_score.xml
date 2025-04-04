@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Баллы: 0"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="➕ Добавить баллы"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnPenalty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="➖ Штраф"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnBonus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="🎁 Бонус"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📊 Отчёт"
+        android:textSize="18sp" />
+</LinearLayout>
